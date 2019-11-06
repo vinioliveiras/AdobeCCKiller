@@ -1,7 +1,7 @@
 # AdobeCCKiller
 Kill all Adobe Creative Cloud processes when Adobe product is not running!
 
-Create .bat file like this:
+Create .bat file like this and change adobeprocessname.exe to the name of the adobe app when closed the script will kill Creative Cloud
 
 @echo off
 set EXE=adobeprocessname.exe
@@ -11,3 +11,8 @@ goto FIN
 :FOUND
 :FIN
 exit
+
+
+
+
+
